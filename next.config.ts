@@ -10,6 +10,11 @@ const nextConfig: NextConfig = {
         destination: "https://github.com/hellrae/saas-starter",
         permanent: false,
       },
+      {
+        source: "/x",
+        destination: "https://x.com/ohellrae",
+        permanent: false,
+      },
     ];
   },
 };
